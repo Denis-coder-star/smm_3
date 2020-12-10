@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/adaptive-menu.css">
+	<link rel="stylesheet" href="css/adaptive.css">
+	<link rel="stylesheet" href="css/dropdown-menu.css">
+	<link rel="stylesheet" href="css/preloader.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<title>SMM.UA</title>
+</head>
+<content>
+  	<input id="hamburger" class="hamburger" type="checkbox"/>
+  	<label class="hamburger" for="hamburger">
+    	<i></i>
+   		<text>
+	      	<open>Меню</open>
+    	</text>
+  	</label>
+  	<section class="drawer-list">
+       	<ul>
+         	<li><a href="#header">ПОДДЕРЖКА</a></li>
+         	<li><a href="#tarif">СООБЩЕНИЯ</a></li>
+          	<li><a href="#services">ЗАКАЗЧИК</a></li>
+         	<li><a href="#poisk">АВТОР</a></li>
+         	<li><a href="#reviews">БАЛАНС</a></li>
+      	</ul>
+    </section>
+</content>
+<body>
+	<header class="header">
+		<div class="preloader" id="preloader">
+		 <div class="loader">
+			<div class="l_main">
+			  <div class="l_square"><span></span><span></span><span></span></div>
+			  <div class="l_square"><span></span><span></span><span></span></div>
+			  <div class="l_square"><span></span><span></span><span></span></div>
+			  <div class="l_square"><span></span><span></span><span></span></div>
+			</div>
+			<p>SMM.UA...</p>
+		</div>
+		</div>
+		<div class="header-menu">
+		    <div class="header-container">
+		    	<div class="header-body">
+			    <img src="img/logo.svg" alt="Лого" class="logo">
+			    <nav>
+			    	<ul class="menu">
+			    		<li class="menu__item">
+			    			<a href="#" class="menu__link">ПОДДЕРЖКА</a>
+			    		</li>
+			    		<li class="menu__item">
+			    			<a href="#" class="menu__link">СООБЩЕНИЯ</a>
+			    		</li>
+			    		<li class="menu__item">
+			    			<a href="#" class="menu__link">ЗАКАЗЧИК</a>
+			    		</li>
+			    		<li class="menu__item">
+			    			<a href="#" class="menu__link">АВТОР</a>
+			    		</li>
+			    		<li class="menu__item">
+			    			<a href="#" class="menu__link">БАЛАНС:</a>
+			    			<p>
+			    				UAH 672.5
+                                RUB 860.5 
+                                USD 993.16
+			    			</p>
+			    		</li>
+			    	</ul>
+			    </nav>
+			    <div class="personal">
+			    	<div class="account">
+			    		<img src="img/account.svg" alt="Аккаунт">
+			    	</div>
+			    	<div class="personal-name">
+			    	    <p>
+			    		   Константин Иванович
+                           Вознесенский
+			    	    </p>
+			    	    <span><img src="img/russia.svg" alt="Флаг" class="flag-russia"></span>
+			    	    <div class="country">
+			    	    	<span class="uk"><img src="img/ukraine.svg" alt="" class="flag-uk"></span>
+			    	    	<span><img src="img/britan.svg" alt="" class="flag-btitan"></span>
+			    	    </div>
+			    	</div>
+			    	<div class="personal-dropdown">
+			    	<div class="personal-buttons">
+			    		<div class="autor-button">
+			    			<p>Автор</p>
+			    		</div>
+			    		<div class="custom-button">
+			    			<p>Заказчик</p>
+			    		</div>
+			    	</div>
+			    	<div class="dropdown-menu autor-menu">
+			    		<a href="#">Мои проекты <img src="img/projects.svg" alt=""></a>
+			    		<a href="#">Персональные <img src="img/personal.svg" alt=""></a>
+			    		<a href="#">Избранные <img src="img/star.svg" alt=""></a>
+			    		<a href="#">Черный список <img src="img/blacklist.svg" alt=""></a>
+			    		<a href="#">Финансы <img src="img/money.svg" alt=""></a>
+			    		<a href="#">Партнерская программа <img src="img/partner.svg" alt=""></a>
+			    		<a href="#">Настройки <img src="img/settings.svg" alt=""></a>
+			    		<a href="#">Выход <img src="img/exit.svg" alt=""></a>
+			    	</div>
+			    	<div class="dropdown-menu customer-menu">
+			    		<a href="#">Все проекты <img src="img/projects.svg" alt=""></a>
+			    		<a href="#">Персональные <img src="img/personal.svg" alt=""></a>
+			    		<a href="#">Избранные <img src="img/star.svg" alt=""></a>
+			    		<a href="#">Мои работы <img src="img/works.svg" alt=""></a>
+			    		<a href="#">Черный список <img src="img/blacklist.svg" alt=""></a>
+			    		<a href="#">Финансы <img src="img/money.svg" alt=""></a>
+			    		<a href="#">Партнерская программа <img src="img/partner.svg" alt=""></a>
+			    		<a href="#">Настройки <img src="img/settings.svg" alt=""></a>
+			    		<a href="#">Выход <img src="img/exit.svg" alt=""></a>
+			    	</div>
+			    </div>
+			    </div>
+			    </div>
+		    </div>
+		</div>
+	</header>
+	<section class="projects">
+		<div class="container project-container">
+			<div class="projects-wrapper">
+			<div class="projects-header">
+				<h2>Мои проекты</h2>
+				<p class="group-project">Группы проектов</p>
+				<p class="black-list">Черный список авторов</p>
+				<p class="autor-command">Команды авторов</p>
+				<div class="project-buttons">
+				<div class="manager-button">
+					<a href="#" class="manager-btn">Ваш менеджер</a>
+				</div>
+				<div class="project-button">
+					<a href="#" class="project-btn">Создать проект</a>
+				</div>
+				</div>
+			</div>
+			<div class="project-body">
+			<div class="projects-info">
+				<div class="info-drop-down">
+				<div class="info-group">
+					<p>Все группы</p>
+					<img src="img/down-arrow.svg" alt="" class="down-arrow-one">
+				</div>
+				<div class="info-down">
+					<div class="down-list down-list-one">
+						<p>Пункт 1</p>
+					</div>
+					<div class="down-list down-list-two">
+						<p>Пункт 2</p>
+					</div>
+					<div class="down-list down-list-three">
+						<p>Пункт 3</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="projects-data">
+				<div class="data-drop-down">
+				<div class="data-group">
+					<p>По дате создания</p>
+					<img src="img/down-arrow.svg" alt="" class="down-arrow-two">
+				</div>
+				<div class="data-down">
+					<div class="data-list data-list-one">
+						<p>Пункт 1</p>
+					</div>
+					<div class="data-list data-list-two">
+						<p>Пункт 2</p>
+					</div>
+					<div class="data-list data-list-three">
+						<p>Пункт 3</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="poisk-block">
+			    <input type="text" placeholder="ID, название проекта или тариф" class="project-poisk">
+			    <img src="img/search.svg" alt="Поиск" class="search">
+			</div>
+			<div class="choise-poject">
+				<p>Выбрать все проекты</p>
+				<input type="checkbox" class="choise">
+			</div>
+			</div>
+			<div class="project-text">
+				<p>Всего завершено:</p>
+				<p>Оплаченные:</p>
+				<p>На проверке:</p>
+				<p>На доработке:</p>
+				<p>Приступившие авторы:</p>
+			</div>
+			<div class="widgets-body">
+				<p>Описание</p>
+				<p>ДАННЫЕ ПО ПРОЕКТУ</p>
+				<p>ТАРИФ</p>
+				<p>ДЕЙСТВИЯ</p>
+			</div>
+			<div class="card-wrapper">
+				<div class="card-block">
+					<div class="card-info">
+					    <div class="card-user">
+						    <p>ID - 7081541</p>
+						    <div class="card-button">
+							    <a href="#" class="card-btn">Активный</a>
+						    </div>
+					    </div>
+					    <div class="card-description">
+					    	<span>
+					    		Computed vs Watched Property Computed vs Watched Property Computed vs Watched Property Computed vs Watched Property
+					    	<span>
+					    	<p>
+					    		Laravel Sanctum provides a featherweight authentication system for SPAs (single page applications), mobile applications, and simple, token based APIs. Sanctum allows each user of
+					    	</p>
+					    </div>
+					    <div class="card-note">
+					    	<span>Заметка</span>
+					    	<p>Группа: Нет группы</p>
+					    </div>
+					    <div class="card-social">
+					    	<a href="#" class="back-1">
+					    			<img src="img/gmail.svg" alt="Гмаил" class="color-normal-1">
+					    			<img src="img/gmail-fff.svg" alt="" class="color-fff-1 color-fff">
+					    		</a>
+					    		<a href="#" class="back-2">
+					    			<img src="img/instagram.svg" alt="Инстаграм" class="color-normal-2">
+					    			<img src="img/instagram-fff.svg" alt="" class="color-fff-2 color-fff">
+					    		</a>
+					    		<a href="#" class="back-3">
+					    			<img src="img/twitter.svg" alt="Твиттер" class="color-normal-3">
+					    			<img src="img/twitter-fff.svg" alt="" class="color-fff-3 color-fff">
+					    		</a>
+					    		<a href="#" class="back-4">
+					    			<img src="img/vk.svg" alt="Вк" class="color-normal-4">
+					    			<img src="img/vk-fff.svg" alt="" class="color-fff-4 color-fff">
+					    		</a>
+					    		<a href="#" class="back-5">
+					    			<img src="img/youtube.svg" alt="Ютуб" class="color-normal-5">
+					    			<img src="img/youtube-fff.svg" alt="" class="color-fff-5 color-fff">
+					    		</a>
+					    		<a href="#" class="back-6">
+					    			<img src="img/telegram.svg" alt="Телеграм" class="color-normal-6">
+					    			<img src="img/telegramm-fff.svg" alt="" class="color-fff-6 color-fff">
+					    		</a>
+					    		<a href="#" class="back-7">
+					    			<img src="img/facebook.svg" alt="Фэйсбук" class="color-normal-7">
+					    			<img src="img/facebook-fff.svg" alt="" class="color-fff-7 color-fff">
+					    		</a>
+					    </div>
+					</div>
+					<div class="card-statistic">
+						<div class="statistic">
+							<p class="green">Оплаченные<span>50</span></p>
+							<p class="red">На проверке<span>50</span></p>
+							<p class="black">На доработке<span>50</span></p>
+							<p class="blue">Приступившие авторы<span>50</span></p>
+							<p class="salad">Завершено<span>50</span></p>
+						</div>
+						<div class="card-work">
+							<span>Последняя работа:</span>
+							<p>10 сентября 2020г 09:27:13</p>
+						</div>
+					</div>
+					<div class="card-tarif">
+						<p>От 500 символов</p>
+						<span>0.16 USD</span>
+						<div class="tarif-button">
+							<a href="#" class="tarif-btn">Оплатить</a>
+						</div>
+						<div class="card-emodzi">
+						   <a href="#">4</a>
+						   <a href="#">2</a>
+						</div>
+						<a href="#"><img src="img/russia.svg" alt="" class="card-russia"></a>
+					</div>
+					<div class="card-actions">
+						<a href="#"><img src="img/action1.svg" alt=""></a>
+						<a href="#"><img src="img/action2.svg" alt=""></a>
+						<a href="#"><img src="img/action3.svg" alt=""></a>
+						<a href="#"><img src="img/action4.svg" alt=""></a>
+						<a href="#"><img src="img/action5.svg" alt=""></a>
+						<a href="#"><img src="img/action6.svg" alt=""></a>
+						<a href="#"><img src="img/action7.svg" alt=""></a>
+						<div class="vip-button">
+							<a href="#" class="vip-btn">VIP</a>
+						</div>
+						<p>до 10 сентября 2021 года</p>
+						<div class="start-button">
+							<a href="#" class="start-btn"><img src="img/play.svg" alt="">Запустить</a>
+						</div>
+						<div class="card-choise">
+							<p>Выбрать</p>
+							<input type="checkbox" class="choise-window">
+						</div>
+					</div>
+				</div>
+				<div class="card-block">
+					<div class="card-info">
+					    <div class="card-user">
+						    <p>ID - 7081541</p>
+						    <div class="card-button">
+							    <a href="#" class="card-btn card-btn-second">Приостановлен</a>
+						    </div>
+					    </div>
+					    <div class="card-description">
+					    	<span>
+					    		Computed vs Watched Property Computed vs Watched Property Computed vs Watched Property Computed vs Watched Property
+					    	<span>
+					    	<p>
+					    		Laravel Sanctum provides a featherweight authentication system for SPAs (single page applications), mobile applications, and simple, token based APIs. Sanctum allows each user of
+					    	</p>
+					    </div>
+					    <div class="card-note">
+					    	<span>Заметка</span>
+					    	<p>Группа: Нет группы</p>
+					    </div>
+					    <div class="card-social">
+					    	<a href="#" class="back-8">
+					    			<img src="img/gmail.svg" alt="Гмаил" class="color-normal-8">
+					    			<img src="img/gmail-fff.svg" alt="" class="color-fff-8 color-fff">
+					    		</a>
+					    		<a href="#" class="back-9">
+					    			<img src="img/instagram.svg" alt="Инстаграм" class="color-normal-9">
+					    			<img src="img/instagram-fff.svg" alt="" class="color-fff-9 color-fff">
+					    		</a>
+					    		<a href="#" class="back-10">
+					    			<img src="img/twitter.svg" alt="Твиттер" class="color-normal-10">
+					    			<img src="img/twitter-fff.svg" alt="" class="color-fff-10 color-fff">
+					    		</a>
+					    		<a href="#" class="back-11">
+					    			<img src="img/vk.svg" alt="Вк" class="color-normal-11">
+					    			<img src="img/vk-fff.svg" alt="" class="color-fff-11 color-fff">
+					    		</a>
+					    		<a href="#" class="back-12">
+					    			<img src="img/youtube.svg" alt="Ютуб" class="color-normal-12">
+					    			<img src="img/youtube-fff.svg" alt="" class="color-fff-12 color-fff">
+					    		</a>
+					    		<a href="#" class="back-13">
+					    			<img src="img/telegram.svg" alt="Телеграм" class="color-normal-13">
+					    			<img src="img/telegramm-fff.svg" alt="" class="color-fff-13 color-fff">
+					    		</a>
+					    		<a href="#" class="back-14">
+					    			<img src="img/facebook.svg" alt="Фэйсбук" class="color-normal-14">
+					    			<img src="img/facebook-fff.svg" alt="" class="color-fff-14 color-fff">
+					    		</a>
+					    </div>
+					</div>
+					<div class="card-statistic">
+						<div class="statistic">
+							<p class="green">Оплаченные<span>50</span></p>
+							<p class="red">На проверке<span>50</span></p>
+							<p class="black">На доработке<span>50</span></p>
+							<p class="blue">Приступившие авторы<span>50</span></p>
+							<p class="salad">Завершено<span>50</span></p>
+						</div>
+						<div class="card-work">
+							<span>Последняя работа:</span>
+							<p>10 сентября 2020г 09:27:13</p>
+						</div>
+					</div>
+					<div class="card-tarif">
+						<p>От 500 символов</p>
+						<span>0.16 USD</span>
+						<div class="tarif-button">
+							<a href="#" class="tarif-btn">Оплатить</a>
+						</div>
+						<div class="card-emodzi">
+						   <a href="#">4</a>
+						   <a href="#">2</a>
+						</div>
+						<a href="#"><img src="img/russia.svg" alt="" class="card-russia"></a>
+					</div>
+					<div class="card-actions">
+						<a href="#"><img src="img/action1.svg" alt=""></a>
+						<a href="#"><img src="img/action2.svg" alt=""></a>
+						<a href="#"><img src="img/action3.svg" alt=""></a>
+						<a href="#"><img src="img/action4.svg" alt=""></a>
+						<a href="#"><img src="img/action5.svg" alt=""></a>
+						<a href="#"><img src="img/action6.svg" alt=""></a>
+						<a href="#"><img src="img/action7.svg" alt=""></a>
+						<div class="vip-button">
+							<a href="#" class="vip-btn vip-btn-pass">VIP</a>
+						</div>
+						<div class="start-button">
+							<a href="#" class="start-btn pause-btn"><img src="img/pause.svg" alt="">Запустить</a>
+						</div>
+						<div class="card-choise">
+							<p>Выбрать</p>
+							<input type="checkbox" class="choise-window">
+						</div>
+					</div>
+				</div>
+				<div class="card-block">
+					<div class="card-info">
+					    <div class="card-user">
+						    <p>ID - 7081541</p>
+						    <div class="card-button">
+							    <a href="#" class="card-btn card-btn-third">Выполнен</a>
+						    </div>
+					    </div>
+					    <div class="card-description">
+					    	<span>
+					    		Computed vs Watched Property Computed vs Watched Property Computed vs Watched Property Computed vs Watched Property
+					    	<span>
+					    	<p>
+					    		Laravel Sanctum provides a featherweight authentication system for SPAs (single page applications), mobile applications, and simple, token based APIs. Sanctum allows each user of
+					    	</p>
+					    </div>
+					    <div class="card-note">
+					    	<span>Заметка</span>
+					    	<p>Группа: Нет группы</p>
+					    </div>
+					    <div class="card-social">
+					    	<a href="#" class="back-15">
+					    			<img src="img/gmail.svg" alt="Гмаил" class="color-normal-15">
+					    			<img src="img/gmail-fff.svg" alt="" class="color-fff-15 color-fff">
+					    		</a>
+					    		<a href="#" class="back-16">
+					    			<img src="img/instagram.svg" alt="Инстаграм" class="color-normal-16">
+					    			<img src="img/instagram-fff.svg" alt="" class="color-fff-16 color-fff">
+					    		</a>
+					    		<a href="#" class="back-17">
+					    			<img src="img/twitter.svg" alt="Твиттер" class="color-normal-17">
+					    			<img src="img/twitter-fff.svg" alt="" class="color-fff-17 color-fff">
+					    		</a>
+					    		<a href="#" class="back-18">
+					    			<img src="img/vk.svg" alt="Вк" class="color-normal-18">
+					    			<img src="img/vk-fff.svg" alt="" class="color-fff-18 color-fff">
+					    		</a>
+					    		<a href="#" class="back-19">
+					    			<img src="img/youtube.svg" alt="Ютуб" class="color-normal-19">
+					    			<img src="img/youtube-fff.svg" alt="" class="color-fff-19 color-fff">
+					    		</a>
+					    		<a href="#" class="back-20">
+					    			<img src="img/telegram.svg" alt="Телеграм" class="color-normal-20">
+					    			<img src="img/telegramm-fff.svg" alt="" class="color-fff-20 color-fff">
+					    		</a>
+					    		<a href="#" class="back-21">
+					    			<img src="img/facebook.svg" alt="Фэйсбук" class="color-normal-21">
+					    			<img src="img/facebook-fff.svg" alt="" class="color-fff-21 color-fff">
+					    		</a>
+					    </div>
+					</div>
+					<div class="card-statistic">
+						<div class="statistic">
+							<p class="green">Оплаченные<span>50</span></p>
+							<p class="red">На проверке<span>50</span></p>
+							<p class="black">На доработке<span>50</span></p>
+							<p class="blue">Приступившие авторы<span>50</span></p>
+							<p class="salad">Завершено<span>50</span></p>
+						</div>
+						<div class="card-work">
+							<span>Последняя работа:</span>
+							<p>10 сентября 2020г 09:27:13</p>
+						</div>
+					</div>
+					<div class="card-tarif">
+						<p>От 500 символов</p>
+						<span>0.16 USD</span>
+						<div class="tarif-button">
+							<a href="#" class="tarif-btn">Оплатить</a>
+						</div>
+						<div class="card-emodzi">
+						   <a href="#">4</a>
+						   <a href="#">2</a>
+						</div>
+						<a href="#"><img src="img/russia.svg" alt="" class="card-russia"></a>
+					</div>
+					<div class="card-actions">
+						<a href="#"><img src="img/action1.svg" alt=""></a>
+						<a href="#"><img src="img/action2.svg" alt=""></a>
+						<a href="#"><img src="img/action3.svg" alt=""></a>
+						<a href="#"><img src="img/action4.svg" alt=""></a>
+						<a href="#"><img src="img/action5.svg" alt=""></a>
+						<a href="#"><img src="img/action6.svg" alt=""></a>
+						<a href="#"><img src="img/action7.svg" alt=""></a>
+						<div class="vip-button">
+							<a href="#" class="vip-btn">VIP</a>
+						</div>
+						<p>до 10 сентября 2021 года</p>
+						<div class="start-button">
+							<a href="#" class="start-btn"><img src="img/play.svg" alt="">Запустить</a>
+						</div>
+						<div class="card-choise">
+							<p>Выбрать</p>
+							<input type="checkbox" class="choise-window">
+						</div>
+					</div>
+				</div>
+				<div class="card-block">
+					<div class="card-info">
+					    <div class="card-user">
+						    <p>ID - 7081541</p>
+						    <div class="card-button">
+							    <a href="#" class="card-btn card-btn-footh">Заблокированный</a>
+						    </div>
+					    </div>
+					    <div class="card-description">
+					    	<span>
+					    		Computed vs Watched Property Computed vs Watched Property Computed vs Watched Property Computed vs Watched Property
+					    	<span>
+					    	<p>
+					    		Laravel Sanctum provides a featherweight authentication system for SPAs (single page applications), mobile applications, and simple, token based APIs. Sanctum allows each user of
+					    	</p>
+					    </div>
+					    <div class="card-note">
+					    	<span>Заметка</span>
+					    	<p>Группа: Нет группы</p>
+					    </div>
+					    <div class="card-social">
+					    	<a href="#" class="back-22">
+					    			<img src="img/gmail.svg" alt="Гмаил" class="color-normal-22">
+					    			<img src="img/gmail-fff.svg" alt="" class="color-fff-22 color-fff">
+					    		</a>
+					    		<a href="#" class="back-23">
+					    			<img src="img/instagram.svg" alt="Инстаграм" class="color-normal-23">
+					    			<img src="img/instagram-fff.svg" alt="" class="color-fff-23 color-fff">
+					    		</a>
+					    		<a href="#" class="back-24">
+					    			<img src="img/twitter.svg" alt="Твиттер" class="color-normal-24">
+					    			<img src="img/twitter-fff.svg" alt="" class="color-fff-24 color-fff">
+					    		</a>
+					    		<a href="#" class="back-25">
+					    			<img src="img/vk.svg" alt="Вк" class="color-normal-25">
+					    			<img src="img/vk-fff.svg" alt="" class="color-fff-25 color-fff">
+					    		</a>
+					    		<a href="#" class="back-26">
+					    			<img src="img/youtube.svg" alt="Ютуб" class="color-normal-26">
+					    			<img src="img/youtube-fff.svg" alt="" class="color-fff-26 color-fff">
+					    		</a>
+					    		<a href="#" class="back-27">
+					    			<img src="img/telegram.svg" alt="Телеграм" class="color-normal-27">
+					    			<img src="img/telegramm-fff.svg" alt="" class="color-fff-27 color-fff">
+					    		</a>
+					    		<a href="#" class="back-28">
+					    			<img src="img/facebook.svg" alt="Фэйсбук" class="color-normal-28">
+					    			<img src="img/facebook-fff.svg" alt="" class="color-fff-28 color-fff">
+					    		</a>
+					    </div>
+					</div>
+					<div class="card-statistic">
+						<div class="statistic">
+							<p class="green">Оплаченные<span>50</span></p>
+							<p class="red">На проверке<span>50</span></p>
+							<p class="black">На доработке<span>50</span></p>
+							<p class="blue">Приступившие авторы<span>50</span></p>
+							<p class="salad">Завершено<span>50</span></p>
+						</div>
+						<div class="card-work">
+							<span>Последняя работа:</span>
+							<p>10 сентября 2020г 09:27:13</p>
+						</div>
+					</div>
+					<div class="card-tarif">
+						<p>От 500 символов</p>
+						<span>0.16 USD</span>
+						<div class="tarif-button">
+							<a href="#" class="tarif-btn">Оплатить</a>
+						</div>
+						<div class="card-emodzi">
+						   <a href="#">4</a>
+						   <a href="#">2</a>
+						</div>
+						<a href="#"><img src="img/russia.svg" alt="" class="card-russia"></a>
+					</div>
+					<div class="card-actions">
+						<a href="#"><img src="img/action1.svg" alt=""></a>
+						<a href="#"><img src="img/action2.svg" alt=""></a>
+						<a href="#"><img src="img/action3.svg" alt=""></a>
+						<a href="#"><img src="img/action4.svg" alt=""></a>
+						<a href="#"><img src="img/action5.svg" alt=""></a>
+						<a href="#"><img src="img/action6.svg" alt=""></a>
+						<a href="#"><img src="img/action7.svg" alt=""></a>
+						<div class="vip-button">
+							<a href="#" class="vip-btn vip-btn-pass">VIP</a>
+						</div>
+						<div class="start-button">
+							<a href="#" class="start-btn pause-btn"><img src="img/pause.svg" alt="">Приостановить</a>
+						</div>
+						<div class="card-choise">
+							<p>Выбрать</p>
+							<input type="checkbox" class="choise-window">
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section class="result">
+		<div class="container">
+			<div class="result-body">
+				<p>Выбрано проектов: 4519</p>
+				<div class="result-pictures">
+					<a href="#"><img src="img/result1.svg" alt=""></a>
+					<a href="#"><img src="img/result2.svg" alt=""></a>
+					<a href="#"><img src="img/result3.svg" alt=""></a>
+					<a href="#"><img src="img/result4.svg" alt=""></a>
+					<a href="#"><img src="img/result5.svg" alt=""></a>
+					<a href="#"><img src="img/result6.svg" alt=""></a>
+					<a href="#"><img src="img/result7.svg" alt=""></a>
+				</div>
+				<div class="result-vip-button">
+					<a href="#" class="result-vip-btn">VIP</a>
+				</div>
+				<div class="pay-button">
+					<a href="#" class="pay-btn">Оплатить</a>
+				</div>
+				<a href="#" class="cancel">Отменить выбранные</a>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-body">
+				<div class="footer-left">
+					<img src="img/logo.svg" alt="logo">
+					<div class="soc-seti">
+						<span class="one">
+							<img src="img/gmail-footer.svg" alt="" class="img-one">
+							<img src="img/gmail-white.svg" alt="" class="img-first">
+						</span>
+						<span class="two">
+							<img src="img/facebook-footer.svg" alt="" class="img-two">
+							<img src="img/facebook-white.svg" alt="" class="img-second">
+						</span>
+						<span class="three">
+							<img src="img/telegramm-footer.svg" alt="" class="img-three">
+							<img src="img/telegram-white.svg" alt="" class="img-third">
+						</span>
+					</div>
+					<div class="soc-contact">
+						<p>support@smm.ua</p>
+						<p>Техподдержка</p>
+					</div>
+				</div>
+				<div class="footer-right">
+					<div class="footer-menu">
+						<h3>СПРАВКА</h3>
+						<a href="#">Новости</a>
+						<a href="#">Тарифы</a>
+						<a href="#">Правила работы</a>
+						<a href="#">Вопросы и ответы</a>
+						<a href="#">Политика конфиденциальности</a>
+					</div>
+					<div class="footer-menu">
+						<h3>ЗАКАЗЧИКУ</h3>
+						<a href="#">Методы оплаты</a>
+						<a href="#">Как выбрать тариф</a>
+						<a href="#">Как купить комментарии</a>
+						<a href="#">Личный менеджер</a>
+					</div>
+					<div class="footer-menu">
+						<h3>АВТОРУ</h3>
+						<a href="#">Ранги авторов</a>
+						<a href="#">Как можно заработать?</a>
+						<a href="#">Штрафы</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
